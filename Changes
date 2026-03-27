@@ -1,0 +1,74 @@
+
+1.10    2023-07-27    lichtkind
+-------
+    * =
+    * + add CMY, CMYK and HSL support
+    * & new getter API
+    * ? rewritten large part of documentation
+
+
+1.09    2023-07-17    lichtkind
+-------
+    * = maintenance release
+    * ? ever more POD fixes
+    * ? new method chapter split
+    * ? POD in HSL constructor
+    * & enhance some tests and new ones
+    * / split and rearrange value libs with tests
+
+1.08    2023-01-24    lichtkind
+-------
+    * = small enhancements
+    * + added method rgb_gradient_to
+    * ~ changed gradient_to  to hsl_gradient_to (but keeping compatibility)
+    * ? even more POD fixes
+
+1.07    2023-01-20    lichtkind
+-------
+    * = POD fixes
+
+1.06    2023-01-20    lichtkind
+
+-------
+    * = maintenance release
+    * + simplified string serialisation method (->new(eval $string) => ->new($string))
+    * ? small POD fixes
+
+1.05    2022-12-31    lichtkind
+-------
+    * = small enhancements
+    * + added getters for data hashes
+    * ? cleaned some sentences and comments
+    * ? synopsis cleanup
+
+1.04    2022-11-04  lichtkind
+-------
+    * = small fixes
+    * & fixing meta files
+    * ? typos
+
+1.03    2022-11-04  lichtkind
+-------
+    * = small enhancements
+    * + recursive constructor that takes an object as argument
+    * ? mention Bundle::Graphics::ColorNames in POD
+
+1.02    2022-10-29  lichtkind
+-------
+    * = fixes
+    * + sub color {} as importable constructor shortcut
+    * ? cleaned some constructor related bits in POD
+    * ! normalize constructor input color_name in 'palette_name:color_name' same as 'color_name'
+
+1.01    2022-10-27  lichtkind
+-------
+    * = fixes
+    * ? mention VACCC and other additional color palettes
+    * ! loading from Graphics::ColorNames::* via 'palette_name:color_name' was actually broken
+
+1.0     2022-10-04  lichtkind
+-------
+    * = initial release - moved code out of Chart module
+    * \ created own distro
+    * ~ small POD fixes
+
